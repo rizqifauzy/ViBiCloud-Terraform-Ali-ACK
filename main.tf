@@ -65,7 +65,7 @@ resource "alicloud_cs_managed_kubernetes" "default" {
   slb_internet_enabled      = true
 
   #Instance charges type
-  instance_charge_type  = "PostPaid"
+  #instance_charge_type  = "PostPaid"
 
   # Enable Ram Role for ServiceAccount
   enable_rrsa = true
