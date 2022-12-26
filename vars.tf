@@ -5,7 +5,7 @@ variable "k8s_name_prefix" {
 
 variable "availability_zone" {
   description = "The availability zones of vswitches."
-  default     = ["ap-southeast-5-a", "ap-southeast-5-b", "ap-southeast-5-c"]
+  default     = ["ap-southeast-5a", "ap-southeast-5b", "ap-southeast-5c"]
 }
 
 variable "node_vswitch_ids" {
